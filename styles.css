@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    background: hsl(225, 100%, 94%);
+    font-family: system-ui;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100hv;
+}
+
+.card{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-top{
+    background-image: url(./images/illustration-hero.svg);
+    background-size: cover;
+    height: 190px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-body{
+    padding: 20px 40px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.outer-div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: ghostwhite;
+}
+
+.card-section{
+    display: flex;
+    align-items: center;
+}
+
+.h5-p-tag{
+    margin-left: 10px;
+}
+
+.card-section h5,
+.card-section p{
+    margin: 0px;
+}
+
+.card-footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-footer a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    font-weight: bolder;
+}    
+
+.card-footer button{
+    cursor: pointer;
+    padding-top: 12px;
+    border: none;
+    outline: none;
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    padding-bottom: 12px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 6px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.6;
+}
+
+.change{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.attribution { font-size: 11px; text-align: center; text-align: center;}
+    .attribution a { color: hsl(228, 45%, 44%); }
